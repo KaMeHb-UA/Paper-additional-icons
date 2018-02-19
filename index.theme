@@ -5,7 +5,7 @@ Inherits=ZorinBlue-Light,Zorin,Paper,Adwaita,gnome,hicolor
 Example=folder
 
 # Directory list
-Directories=16x16/mimetypes,24x24/mimetypes,32x32/mimetypes,48x48/mimetypes,512x512/mimetypes,16x16@2x/mimetypes,24x24@2x/mimetypes,32x32@2x/mimetypes,48x48@2x/mimetypes,512x512@2x/mimetypes
+Directories=16x16/mimetypes,24x24/mimetypes,32x32/mimetypes,48x48/mimetypes,512x512/mimetypes,16x16@2x/mimetypes,24x24@2x/mimetypes,32x32@2x/mimetypes,48x48@2x/mimetypes,512x512@2x/mimetypes,scalable/mimetypes,scalable-up-to-32/mimetypes
 
 # MimeTypes
 
@@ -48,3 +48,9 @@ MinSize=16
 MaxSize=512
 Type=Scalable
 
+[scalable-up-to-32/mimetypes]
+Context=Mimetypes
+Size=16
+MinSize=16
+MaxSize=32
+Type=Scalable
